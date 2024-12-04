@@ -658,6 +658,7 @@
         position: relative;
         border: 4px solid green;
         margin-left: 25px;
+        height: 350px;
     }
     .rr{margin: 0px 2%;}
 
@@ -693,12 +694,15 @@
     }
     .names-teams .name8-ti8{
         text-transform: uppercase;
-        padding: 20px 0px;
+        padding: 20px 50px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: absolute;
     }
     .names-teams .names8-ti8{
         text-transform: capitalize;
         color: rgb(75, 73, 73);
+        position: absolute;
+        padding: 50px 50px;
     }
     .names-teams:hover .name8-ti8{
         color: #c0ffb8;
@@ -719,8 +723,12 @@
         -moz-transition: 2s;
         -ms-transition: 2s;
         -o-transition: 2s;
-        border-radius: 20px 0px 80px 0px;
-    }
+        border-radius: 15px 0px 75px 0px;
+        -webkit-border-radius: 15px 0px 75px 0px;
+        -moz-border-radius: 15px 0px 75px 0px;
+        -ms-border-radius: 15px 0px 75px 0px;
+        -o-border-radius: 15px 0px 75px 0px;
+}
     .names-teams:hover::after{
     width: 100%;
     height: 100%;
