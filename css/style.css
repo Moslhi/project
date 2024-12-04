@@ -1,0 +1,924 @@
+    *{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+        font-weight: bold;
+    }
+
+    body{height: 100%;}
+        .logo {
+                width: 100%;
+                height: 50px;
+                background-color: rgba(4, 82, 46, 0.5);
+                z-index: 50;
+                position: fixed;
+            }
+
+        .i1 {
+        color: rgb(241, 248, 244);
+            font-size: 22px;
+                margin-top: 15px;
+                margin-left: 25px;
+            }
+
+        .i2 {
+            position: absolute;
+                top: 17px;
+                font-size: 20px;
+                margin-left: 28px;
+                margin-top: -2px;
+                color: rgb(0, 0, 0);
+                z-index: 10;
+        }
+        ::placeholder{color: rgb(0, 65, 11);
+        font-size: 16px;
+        position: absolute;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-left: 25px;
+        text-align: center;
+        }
+        [type='text'] {
+        position: absolute;
+            width: 240px;
+            height: 35px;
+            background-color: rgb(250, 250, 252);
+            border-radius: 20px;
+            margin-top: 7px;
+            margin-left: 25px;
+            border: 0;
+            z-index: 1;
+
+        }
+        .list {
+        float: right;
+    position: relative;
+
+        }
+
+        .list li {
+            margin-right: 25px;
+                padding: 10px 0px;
+                display: inline-block;
+        }
+    .a-lo {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+                /*                            END LOGO                                      */
+            .home{position: relative;
+            }
+            .home2 {
+                position:relative;
+                background-size:cover;
+                background-image: url(../images/ss5.png);
+                width: 100%;
+                height: 100vh;
+            }
+            .overlay {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+            .content{
+                position: absolute;
+                top:50%;
+                left: 50%;
+                transform:translate(-50%, -50%);
+                text-align: center;
+                width: 60%;
+    }
+        .par{
+        text-transform: capitalize;
+        color: white;
+        margin: 20px 0px;
+        font-size: 20px;
+
+        }
+        .words{
+            text-transform: capitalize;
+                color: white;
+                margin-top: -45px;
+                font-size: 50px;
+                font-family: 'Courier New', Courier, monospace;
+        }
+        .btn1{
+            font-size: 18px;
+            border: 0;
+            border-radius: 15px;
+            text-transform: capitalize;
+            padding: 16px 14px;
+            cursor: pointer;
+            border-radius: 0px 20px 0px 20px;
+        }
+        .btn1:hover{
+            opacity: 0.5;
+        }
+        .btn2{
+            color: white;
+            background-color: green;
+            margin-left: 25px;
+        }
+            /*                           END HOME                                           */
+    .task3-icons{
+        width: 100%;
+        position: relative;
+        overflow: auto;
+
+    }
+    .title1{
+        margin-bottom: 25px;
+        margin-top: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        color: rgb(33, 54, 0);
+        font-size: 35px;
+        margin-left:90px;
+    }
+    .line{
+        width: 90px;
+        height: 5px;
+        margin: 0px auto;
+        background-color: yellowgreen;
+        margin-bottom: 20px;
+    }
+
+    .task3-div1{
+        color: rgb(7, 0, 0);
+        font-size: 28px;
+        border: 4px solid green;
+        text-align: center;
+        border-radius: 50px 0px 80px 0px;
+        float: left;
+        width: 350px;
+        height: 280px;
+        margin-top: 80px;
+        margin-left: 55px;
+        position: relative;
+    }
+    .task3-i{line-height: 50px;font-size: 30px;}
+    .task3-h6{color: gray;
+        line-height: 20px;
+        margin-top: 20px;
+        }
+    .task3-h5{text-transform: capitalize;}
+    .task3-letter{position: relative;}
+    .task3-a{
+        position: relative;
+    padding:5px 50px ;
+    margin: 50px 70px;
+        width: 200px;
+        font-size: 20px;
+        background-color: green;
+        height: 45px;
+        border-radius: 80px 0px 80px 0px;
+        text-transform: capitalize;
+    }
+    .task3-aa{color: white;}
+    .task3-div1:hover .task3-a .task3-aa { color: black;}
+    .task3-div1:hover  .task3-i{color: green;}
+    .task3-div1:hover .task3-h5{color:rgb(5, 168, 59);}
+    .task3-div1:hover .task3-h6 {color: rgb(0, 7, 0);}
+    .task3-div1::after {
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: 0;
+        left: 0;
+        background-color: rgb(1, 29, 3);
+        transition: 1s;
+        border-radius: 45px 0px 65px 0px;}
+    .task3-div1:hover::after {
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        cursor: pointer;
+    }
+            /*                    END TASK3-ICONS                                                     */
+        .task4-picture {
+        overflow: auto;
+        width: 100%;
+        height: 15%;
+        background-color: rgb(221, 255, 232);
+        margin: 200px 0px;
+            }
+        .title2 {
+        margin-bottom: 25px;
+        margin-top: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        color: rgb(33, 54, 0);
+        font-size: 35px;
+    }
+    .line2 {
+        width: 90px;
+        height: 5px;
+        margin: auto;
+        background-color: yellowgreen;
+        margin-bottom: 20px;
+    }
+    .cate {
+        position: absolute;
+        margin-top: -65%;
+        font-size: 35px;
+        margin-left: 100px;
+        color: rgb(0, 29, 15);
+        text-transform: uppercase;
+        margin-left: 50px;
+        visibility: hidden;
+    }
+    .tpha {
+        margin-top: -50%;
+        position: absolute;
+        margin-left: 150px;
+        color: rgb(1, 44, 13);
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-left: 80px;
+        visibility: hidden;
+    }
+    .thpha {
+        font-size: 35px;
+        position: absolute;
+        color: rgba(0, 97, 32, 0.918);
+        float: left;
+        visibility: hidden;
+        margin-top: -35%;
+        margin-left: 100px;
+
+    }
+    .task4-imgs{
+        position: relative;
+        margin-left:100px;
+        float: left;
+        margin-bottom: 20px;
+        margin-left: 7%;
+    }
+    .task4-imgs:hover .cate {visibility: visible;}
+    .task4-imgs:hover .thpha {visibility: visible;}
+    .task4-imgs:hover .tpha  {visibility: visible;}
+    .task4-imgs::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(151, 147, 147);
+    }
+    .task4-imgs:hover::after {
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        cursor: pointer;
+    }
+            /*                      END TASK4-PICTURE                                            */
+    .task5-Mtasks {
+        overflow: auto;
+        margin-left: -5%;
+    }
+        .title3{
+        margin-bottom: 25px;
+            margin-top: 30px;
+            text-align: center;
+            text-transform: capitalize;
+            color: rgb(33, 54, 0);
+            font-size: 35px;
+    }
+    .line3 {
+        width: 90px;
+        height: 5px;
+        margin: auto;
+        background-color: yellowgreen;
+        margin-bottom: 20px;
+    }
+    .icons5{
+        font-size: 28px;
+        border: 4px solid green;
+        border-radius: 50px 0px 80px 0px;
+        float: left;
+        width: 330px;
+        height: 360px;
+        margin-top: 80px;
+        margin-left: 100px;
+        position: relative;
+    }
+    .task5-i{
+        padding-left:25px ;
+        line-height: 45px;
+        color: rgb(0, 29, 8);
+    }
+    .task5I{
+        font-size: 25px;
+        margin:-35px 65px;
+        float: left;
+        font-weight: bold;
+        text-transform: capitalize;
+        color: black;
+    }
+    .mola{
+        width: 310px;
+        height: 90px;
+        margin-top: 20px;
+        margin-left: -50px;
+        color: gray;
+        font-size: 25px;
+    }
+    .icons5:hover .task5I { color: rgb(3, 201, 3);}
+    .icons5:hover .task5-i {color: rgb(0, 189, 0);}
+    .icons5:hover .mola{color: black;}
+    .icons5::after {
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: 0;
+        left: 0;
+        background-color: rgb(1, 29, 3);
+        transition: 1s;
+        border-radius: 45px 0px 65px 0px;
+    }
+    .icons5:hover::after {
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        cursor: pointer;
+    }
+                /*             END task5-Mtasks             */
+            .task6-pha {
+            overflow: auto;
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            }
+    .title4{
+        margin-bottom: 25px;
+        margin-top: 250px;
+        text-align: left;
+        text-transform: capitalize;
+        color: rgb(33, 54, 0);
+        font-size: 35px;
+        margin-left: 60px;
+    }
+    .line4{
+        width: 90px;
+        height: 5px;
+        background-color: yellowgreen;
+        margin-bottom: 20px;
+        text-align: left;
+        margin-left: 60px;
+    }
+
+    .h12{
+        font-size: 15px;
+        text-transform: capitalize;
+        line-height: 20px;
+        word-spacing: 2px;
+        margin-left: 80px;
+        margin-top: -20px;
+        opacity: 0.6;
+    }
+    .i13{
+        margin-top:20px;
+        margin-left: 40px;
+        opacity: 0.6;
+    }
+    .task6-imgs{
+        margin-left: 890px;
+        margin-top: -250px;
+        position: relative;
+        display: inline-block;
+        border: 4px solid green;
+    
+    }
+    .ch{
+        display: inline-block;
+        position: absolute;
+        margin: 250px -250px;
+        
+    }
+
+    .ch li.ch-a{
+        display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: rgb(20, 236, 0);
+            position: relative;
+            padding: 5px 5px;
+            margin-left: 50px;
+    }
+    .ch-a::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 51, 7);
+        border-radius: 50%;
+    }
+    .ch-a:hover::after {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+            /*                END Task6-Pha                     */
+    .task7-picture{
+        overflow: auto;
+        width: 100%;
+        height: 50vh;
+        background-image: url(../images/sss12.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        margin-bottom: 35px;
+    }
+
+    .task7-icons{
+        margin-top: 10%;
+        float: left;
+        font-size: 26px;
+        color: rgb(255, 228, 228);
+        margin-left:120px;
+        position: relative;
+        text-align: center;
+    }
+    .task5{
+        text-align: center;
+        text-transform: capitalize;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .task7-ic{margin-left: -4px;
+    margin-top: 10px;}
+            /*                    END  task7-picture                        */
+            .task8-price {
+                margin-top: 10%;
+                width: 100%;
+                margin-bottom: 15%;
+                height: 100vh;
+                overflow: auto;
+            }
+
+        .title7 {
+        margin-bottom: 25px;
+        margin-top: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        color: rgb(33, 54, 0);
+        font-size: 35px;
+    }
+    .line7 {
+        width: 90px;
+        height: 5px;
+        margin: auto;
+        background-color: yellowgreen;
+        margin-bottom: 20px;
+    }
+
+    .task8-per{
+        margin-top: 8px;
+        position: relative;
+        width: 350px;
+        height: 480px;
+        border: 4px solid green;
+        border-radius: 80px 0px 80px 0px;
+        float: left;
+        margin-left: 50px;
+    }
+    .task12-name{
+        text-align: center;
+        font-size: 45px;
+        margin-top: 20px;
+        position: absolute;
+        margin-left: 80px;
+        text-transform: capitalize;
+    }
+    .task10-Ipri{
+        background-color: aliceblue;
+        border-radius: 50%;
+        border: 2px solid green;
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+        margin-top: 85px;
+        position: absolute;
+        text-transform: capitalize;
+    }
+
+    .task11-price{
+        margin: 25px 5px;
+    }
+    .buy{
+        position: absolute;
+        margin-top: -150px;
+        margin-left: 70px;
+        width: 200px;
+        font-size: 20px;
+        background-color: green;
+        color: white;
+        height: 45px;
+        border-radius: 80px 0px 80px 0px;
+        text-transform: capitalize;
+    }
+    .personal{
+        padding: 200px 0px;
+        margin-left: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 65px;
+        text-transform: capitalize;
+    }
+    .task8-per:hover .buy {color: rgb(19, 32, 0);}
+    .task8-per:hover .task10-Ipri{color: rgb(19, 32, 0);}
+    .task8-per:hover .task11-price {color: rgba(0, 5, 0, 0.534);}
+    .task8-per:hover .task9-name{color: green;}
+    .task8-per::after {
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgb(1, 29, 3);
+        transition: 2s;
+        border-radius: 75px 0px 75px 0px;
+        cursor: pointer;
+
+    }
+    .task8-per:hover::after {
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+            /*              END task8-price                            */
+    .task9-Opinions{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        background-image: url(../images/sss12.jpeg);
+        background-attachment: fixed;
+        position: relative;
+        overflow: auto;
+        height: 50vh;
+        background-size: cover;
+    }
+    .task9-picOp1 .tasks-9 .task9-img {
+        position: absolute;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-left: 150px;
+        margin-top: 60px;
+    }
+    .task9-picOp2 .tasks-9 .task9-img2 {
+            position: absolute;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            margin: 60px 800px;
+    }
+    .task9-names{
+        text-align: center;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 320px;
+        display: inline-block;
+        text-transform: capitalize;
+        color: aliceblue;
+        letter-spacing: 2px;
+    }
+    .task9-names2{
+        text-align: center;
+    position: absolute;
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-top: 100px;
+        margin-left: 980px;
+        display: inline-block;
+        letter-spacing: 2px;
+
+    }
+
+    .pic19{
+        width: 550px;
+        height: 120px;
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 40px;
+        color: aliceblue;
+    }
+    .pic20{
+        width: 550px;
+        height: 80px;
+        color: aliceblue;
+        margin-left: 720px;
+        position: absolute;
+        margin-top: 220px;
+    }
+                /*                        END  task9-Opinions                            */
+    .task8-team{
+        overflow: auto;
+        width: 100%;
+        height: 100vh;
+    }
+    .title8{
+        margin-bottom: 25px;
+        margin-top: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        color: rgb(33, 54, 0);
+        font-size: 35px;
+    }
+
+    .line8{
+        width: 90px;
+        height: 5px;
+        margin: auto;
+        background-color: yellowgreen;
+        margin-bottom: 20px;
+    }
+    .team-cont:hover .icons8-ti8{
+        visibility: visible;
+    }
+    .team-cont{
+        float: left;
+        width:30%;
+        background-color: rgb(119, 255, 119);
+        padding: 14px 40px;
+        text-align: center;
+        border-radius: 20px 0px 80px 0px;
+        position: relative;
+        border: 4px solid green;
+        margin-left: 25px;
+    }
+    .rr{margin: 0px 2%;}
+
+    .img-team{
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .img-team img{
+        width: 100%;
+    }
+    .icons8-ti8{
+        position: absolute;
+        top:0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        visibility: hidden;
+    }
+
+    .icons8-ti8 a{
+        display: block;
+        width: 40px;
+        height:40px ;
+        background-color: green;
+        color: #c0ffb8;
+        font-size: 24px;
+        margin-left: auto;
+
+    }
+    .icons8-ti8 a i{
+        line-height: 40px;
+    }
+    .names-teams .name8-ti8{
+        text-transform: uppercase;
+        padding: 20px 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .names-teams .names8-ti8{
+        text-transform: capitalize;
+        color: rgb(75, 73, 73);
+    }
+    .names-teams:hover .name8-ti8{
+        color: #c0ffb8;
+    }
+    .names-teams:hover .names8-ti8{
+        color: rgb(39, 33, 1);
+    }
+    .names-teams::after{
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color:rgb(1, 29, 3);
+        transition: 2s;
+        -webkit-transition: 1s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
+        border-radius: 20px 0px 80px 0px;
+    }
+    .names-teams:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    }
+                /*                    END task8-team                           */
+
+    .task10-managers {
+        margin-top: 20%;
+        overflow: auto;
+        margin-top: 50px;
+        margin-left: -2%;
+        background-attachment: fixed;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .title9 {
+        margin-bottom: 25px;
+        margin-top: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        color: rgb(33, 54, 0);
+        font-size: 35px;
+    }
+
+    .line9 {
+        width: 90px;
+        height: 5px;
+        margin: auto;
+        background-color: yellowgreen;
+        margin-bottom: 20px;
+    }
+    .tasks10-i1{
+        background-color: rgb(255, 255, 255);
+            width: 350px;
+            height: 590px;
+            margin-left: 5%;
+            border-radius: 80px 20px 80px 20px;
+            float: left;
+            position: relative;
+            border: 2px solid green;
+            margin-top: 8px;
+    }
+    .tasks10-i2 {
+        margin: 30px 60px;
+        float: left;
+        position: relative;
+    }
+    .tasks10-i3{
+    color: green;
+    position: absolute;
+    padding-top: 300px;
+    margin-left: -30px;
+    font-size: 25px;
+    }
+    .ta{margin-top:10px;
+        margin-left: 72px;
+        }
+
+    .tasks10-i4{
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        display: inline;
+        margin: 290px -275px ;
+        color: green;
+
+    }
+    .tasks{
+        float: left; ;
+        text-transform: capitalize;
+        padding: 20px 25px;
+    }
+    .tasks10-i5{
+        position: absolute;
+        font-size: 20px;
+        margin-top: 350px;
+        margin-left: 40px;
+        text-transform: capitalize;
+        color:gray;
+
+    }
+
+    .tasks10-i7 {
+    position: absolute;
+        font-size: 20px;
+        text-transform: capitalize; 
+        width: 295px;
+        left: 5px;
+        top:50px;
+        color: gray;
+    }
+
+    .tasks10-i8{
+        position: absolute;
+            margin-top: 530px;
+            margin-left: 70px;
+            width: 200px;
+            font-size: 20px;
+            background-color: green;
+            height: 45px;
+            border-radius: 80px 0px 80px 0px;
+            text-transform: capitalize;
+    } 
+    .tm{color: white;
+        padding: 50px ;
+        }
+        .tasks10-i1:hover .tasks10-i3{color: rgb(13, 115, 163);}
+        .tasks10-i1:hover .tasks10-i4{color: rgb(2, 65, 26);}
+        .tasks10-i1:hover .tasks10-i6{color: rgb(0, 5, 0);}
+        .tasks10-i1:hover .tasks10-i7 {color: rgb(1, 49, 1);} 
+        .tasks10-i1::after {
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgb(1, 29, 3);
+        transition: 1s;
+        border-radius: 75px 12px 75px 12px;
+        cursor: pointer;
+        -webkit-border-radius: 75px 12px 75px 12px;
+        -moz-border-radius: 75px 12px 75px 12px;
+        -ms-border-radius: 75px 12px 75px 12px;
+        -o-border-radius: 75px 12px 75px 12px;
+    }
+        
+            .tasks10-i1:hover::after {
+                width: 100%;
+                height: 100%;
+                opacity: 0.5;   
+            } 
+            /*                     END tasks10-i2             */
+    .footer{
+            width: 100%;
+            background-color: #c0ffb8;
+            padding: 20px 0px;
+            margin-top: 100px;
+            margin-bottom: 0;
+            position: relative;
+    }
+    .task11-fo{
+        margin: auto;
+            height: 400px;
+            width: 40%;
+            text-align: center;
+    }
+    .img88{
+        border-radius: 30px;
+        margin: 5px 10px;
+    }
+    .task11-icons{
+        font-size: 40px;
+        position: relative;
+        margin-top: 1%;
+        color: rgb(10, 20, 155);
+        float: left;
+        margin-left: -30px;
+    }
+    .tasks11-i{
+        background-color: rgb(139, 139, 139);
+        border-radius: 50%;
+        height: 68px;
+        float: left;
+        margin-left: 25px;
+    }
+    .ii55{margin:15px 13px;
+            position: relative;
+        }
+    .task11-icons ul li::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 0;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 36);
+        transition: 1s;
+        opacity: 0.7;
+        cursor: pointer;
+    
+    }
+
+    .task11-icons ul li:hover {
+        background-color: #fafdfa;
+        transition: 1s;
+                }
+                /*                     END footer             */
+    .end-class{
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-left: 38%;
+        position: absolute;
+        overflow-x: hidden;
+        margin-top: 0%;
+    }
